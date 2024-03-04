@@ -1,14 +1,18 @@
-import Header from "./header/Header";
-import Footer from "./footer/Footer";
-import Logo from "./Logo";
-import LogoutBtn from "./header/LogoutBtn";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import Container from "./container/Container";
-import RTE from './RTE.jsx'
+import Logo from "./Logo";
+import LogoutBtn from "./Header/LogoutBtn";
+import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
-import Post from "./Post"
-import PostForm from  "./post-form/PostForm.jsx"
-import AllPosts from "../pages/AllPosts.jsx";
+import Button from "./Button";
+import PostForm from "./post-form/PostForm";
+import PostCard from "./PostCard";
+import AuthLayout from "./AuthLayout";
+import Input from "./Input";
+import Select from  "./Select"
+
 
 export {
     Header,
@@ -19,7 +23,10 @@ export {
     RTE,
     Signup,
     Login,
-    Post,
+    Button,
     PostForm,
-    AllPosts,
-}   
+    PostCard,
+    AuthLayout, 
+    Input,
+    Select,
+}
